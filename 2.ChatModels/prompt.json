@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "style_input",
+        "user_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an AI assistant specialized in explaining advanced research papers in a specific style and depth.\n\nResearch Paper: \"{user_input}\"\nStyle: \"{style_input}\"\nExplanation Length: \"{length_input}\"\n\nProvide an explanation of the research paper above based on the selected style and explanation length. \nMake it informative, engaging, and tailored to the audience level specified.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
